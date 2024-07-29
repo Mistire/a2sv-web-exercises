@@ -3,9 +3,9 @@
 A simple interactvive To-do list made using HTML, CSS and Javascript
 
 ## Features
-* Adds task
-* Delete/Remove task
-* Edits task
+- Adds task
+- Delete/Remove task
+- Edits task
 
 ## Getting Started
 To run this project locally, follow these steps:
