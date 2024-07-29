@@ -9,6 +9,7 @@ A simple interactvive To-do list made using HTML, CSS and Javascript
 
 ## Getting Started
 To run this project locally, follow these steps:
+
 **1. Clone the repository**
    ```bash
    git clone https://github.com/your-username/todo-list.git
