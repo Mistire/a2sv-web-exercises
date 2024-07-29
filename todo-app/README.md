@@ -4,13 +4,13 @@
 A simple interactvive To-do list made using HTML, CSS and Javascript
 
 ## Features
-- Adds task
++ Adds task
    ![addTask](https://github.com/user-attachments/assets/559ed845-ae98-4886-964c-f61ba3fcdb5d)
   
-- Delete/Remove task
++ Delete/Remove task
    ![deleteTask](https://github.com/user-attachments/assets/8ccdb37f-5ea7-481e-a4b4-6c07f33b21b3)
   
-- Edits task
++ Edits task
    ![editTask](https://github.com/user-attachments/assets/11774253-0beb-4707-ac4f-9972cbe47afe)
 
 ## Getting Started
