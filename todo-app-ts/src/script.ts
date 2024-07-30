@@ -14,10 +14,10 @@ todoForm.addEventListener("submit", function (event: Event) {
 
   const newTask: string = todoInput.value.trim();
 
-  if (newTask === "") {
-    alert("Please enter a task");
-    return;
-  }
+  // if (newTask === "") {
+  //   alert("Please enter a task");
+  //   return;
+  // }
 
   todoInput.value = "";
 
