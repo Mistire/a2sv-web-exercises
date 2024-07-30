@@ -1,17 +1,18 @@
 # To-Do List
-![image](https://github.com/user-attachments/assets/6d31f258-a801-4568-8fe4-9347b339257e)
+![todoTS](https://github.com/user-attachments/assets/8c198620-64ed-4004-bd68-4813f136b51d)
 
-A simple interactvive To-do list made using HTML, CSS and Javascript
+A simple interactvive To-do list made using HTML, CSS and TypeScript
 
 ## Features
 **Adds task**
-   ![addTask](https://github.com/user-attachments/assets/559ed845-ae98-4886-964c-f61ba3fcdb5d)
-  
+  ![addTaskTS](https://github.com/user-attachments/assets/3f192590-f31a-4bfa-b0d7-a9e34ff73f4e)
+
 **Delete/Remove task**
-   ![deleteTask](https://github.com/user-attachments/assets/8ccdb37f-5ea7-481e-a4b4-6c07f33b21b3)
-  
+  ![DelTS](https://github.com/user-attachments/assets/57e11b9d-21d0-4d68-bb34-b681803b571d)
+
 **Edits task**
-   ![editTask](https://github.com/user-attachments/assets/11774253-0beb-4707-ac4f-9972cbe47afe)
+   ![EditTS](https://github.com/user-attachments/assets/2d1e7c5d-7345-4038-9c74-7637dc5d0c3b)
+
 
 ## Getting Started
 
@@ -19,11 +20,11 @@ To run this project locally, follow these steps:
 
 **1. Clone the repository**
    ```bash
-   git clone https://github.com/your-username/todo-list.git
+   git clone https://github.com/your-username/todo-app-ts.git
    ```
 **2. Navigate to the project directory**
    ```bash
-   cd todo-list
+   cd todo-app-ts
    ```
 **3. Open index.html in your web browser**
    You can do this by double-clicking the index.html file or by using a local server if you have one set up.
