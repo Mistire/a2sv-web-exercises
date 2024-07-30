@@ -79,6 +79,19 @@ h1 {
 
 .delete-button {
   margin-right: 10px;
+  background-color: rgb(204, 21, 21);
+}
+
+.edit-button {
+  background-color: rgb(29, 150, 210);
+}
+
+.delete-button:hover {
+  background-color: rgb(125, 14, 14); 
+}
+
+.edit-button:hover {
+  background-color: rgb(18, 87, 122);
 }
 
 
