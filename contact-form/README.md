@@ -2,13 +2,13 @@
 
 This is a simple and attractive Contact Form built using React and TypeScript, utilizing the `react-hook-form` library for form handling and validation. The UI is styled with Tailwind CSS to ensure a modern and responsive design.
 
-![Screenshot 2024-08-02 003033](https://github.com/user-attachments/assets/8e2a0736-b849-42e5-aa18-d14dffd82570)
+![ContactForm](https://github.com/user-attachments/assets/9455d10c-a0c3-4152-b966-d97fd4aef226)
+
 
 ![Screenshot 2024-08-02 002927](https://github.com/user-attachments/assets/500ba0f2-ac9b-46cc-9886-dbd46c7d387a)
 
-![contactForm2](https://github.com/user-attachments/assets/3810f6ce-f6ba-43fb-b3a9-596f5bb5a85f)
 
-![ContactForm](https://github.com/user-attachments/assets/9455d10c-a0c3-4152-b966-d97fd4aef226)
+![Screenshot 2024-08-02 003033](https://github.com/user-attachments/assets/8e2a0736-b849-42e5-aa18-d14dffd82570)
 
 ## Features
 
