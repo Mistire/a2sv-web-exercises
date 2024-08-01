@@ -20,8 +20,11 @@ A simple and visually appealing Todo List application built with React, TypeScri
 ## Technologies Used
 
 **React**: JavaScript library for building user interfaces
+
 **TypeScript**: Superset of JavaScript with static typing
+
 **Tailwind CSS**: Utility-first CSS framework for styling
+
 **Vite**: Fast build tool and development server
 
 ## Installation
