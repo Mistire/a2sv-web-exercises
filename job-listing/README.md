@@ -1,5 +1,12 @@
 # Job Listing Web App
 
+![image](https://github.com/user-attachments/assets/b70fe21e-60b1-43eb-8527-f166e6b6d694)
+
+![image](https://github.com/user-attachments/assets/19ecb369-2161-4ab5-b96b-4328feadcfa2)
+
+![image](https://github.com/user-attachments/assets/45fddb78-0a35-4425-871f-5b870a153e41)
+
+
 ## Overview
 
 Welcome to the Job Listing Web App! This application is designed to help users find and explore job opportunities easily. It features a clean and user-friendly interface where you can view job postings, get detailed information about each job, and see essential details like company, location, and job requirements.
