@@ -1,10 +1,10 @@
 # Job Listing Web App
 
-![image](https://github.com/user-attachments/assets/b70fe21e-60b1-43eb-8527-f166e6b6d694)
+  **Job listings**
+![image](https://github.com/user-attachments/assets/0c55f2a2-0c2d-4e4b-b34d-0bc490e329ae)
 
-![image](https://github.com/user-attachments/assets/19ecb369-2161-4ab5-b96b-4328feadcfa2)
-
-![image](https://github.com/user-attachments/assets/45fddb78-0a35-4425-871f-5b870a153e41)
+  **Job description**
+![image](https://github.com/user-attachments/assets/04e16225-a87a-40e8-86cc-9e52ce233064)
 
 
 ## Overview
