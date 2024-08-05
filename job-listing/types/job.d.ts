@@ -3,25 +3,39 @@ export interface Job {
   title: string;
   description: string;
   responsibilities: string[];
-  ideal_candidate: {
-    age: string;
-    gender: string;
-    traits: string[];
-  };
-  when_where: string;
-  about: {
-    posted_on: string;
-    deadline: string;
-    location: string;
-    start_date: string;
-    end_date: string;
-    categories: string[];
-    required_skills: string[];
-  };
-  company: string;
-  image: string;
+  requirements: string[];
+  idealCandidate: string;
+  categories: string[];
+  opType: string;
+  startDate: string;
+  endDate: string;
+  deadline: string;
+  location: string[];
+  requiredSkills: string[];
+  whenAndWhere: string;
+  orgID: string;
+  postedOn: string;
+  status: string;
+  applicantsCount: number;
+  viewsCount: number;
+  orgName: string;
+  logoUrl: string;
+  isBookmarked: boolean;
+  isRolling: boolean;
+  questions: string | null;
+  perksAndBenefits: string | null;
+  createdAt: string;
+  updatedAt: string;
+  orgPrimaryPhone: string;
+  orgEmail: string;
+  averageRating: number;
+  totalReviews: number;
 }
 
 export interface JobsData {
-  job_postings: Job[];
+  success: boolean;
+  message: string;
+  data: Job[];
+  errors: any | null;
+  count: number;
 }

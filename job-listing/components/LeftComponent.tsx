@@ -5,19 +5,13 @@ import { MapPinIcon } from '@heroicons/react/24/outline';
 interface LeftComponentProps {
   description: string;
   responsibilities: string[];
-  idealCandidate: IdealCandidate;
+  idealCandidate: string;
   whenWhere: string;
 }
 
-interface IdealCandidate {
-  age: string;
-  gender: string;
-  traits: string[];
-}
-
 const LeftComponent: React.FC<LeftComponentProps> = ({ description, responsibilities, idealCandidate, whenWhere }) => {
-  const displayAge = idealCandidate.age.toLowerCase() === 'any' ? 'Not specified' : idealCandidate.age;
-  const displayGender = idealCandidate.gender.toLowerCase() === 'any' ? 'Not specified' : idealCandidate.gender;
+  // const displayAge = idealCandidate.age.toLowerCase() === 'any' ? 'Not specified' : idealCandidate.age;
+  // const displayGender = idealCandidate.gender.toLowerCase() === 'any' ? 'Not specified' : idealCandidate.gender;
 
   return (
     <div className='text-[16px] w-[95%] pt-24 pl-24 space-y-12'>
@@ -40,14 +34,7 @@ const LeftComponent: React.FC<LeftComponentProps> = ({ description, responsibili
 
       <div className='pg'>
         <h1 className='text-xl font-black mb-4'>Ideal Candidate</h1>
-        <p className='mb-2'><strong>Age:</strong> {displayAge}</p>
-        <p className='mb-4'><strong>Gender:</strong> {displayGender}</p>
-        <h2 className='font-bold mb-2'>Traits:</h2>
-        <ul className='list-disc list-inside'>
-          {idealCandidate.traits.map((trait, index) => (
-            <li className='text-gray-700' key={index}>{trait}</li>
-          ))}
-        </ul>
+        <p>{idealCandidate}</p>
       </div>
       
       <div className='pg'>
