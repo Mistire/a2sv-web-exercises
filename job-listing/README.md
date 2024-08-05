@@ -11,6 +11,7 @@
 
 Welcome to the Job Listing Web App! This application is designed to help users find and explore job opportunities easily. It features a clean and user-friendly interface where you can view job postings, get detailed information about each job, and see essential details like company, location, and job requirements.
 
+
 ## Features
 
 - **Job Listings**: Browse a list of job postings with summaries including job titles, company names, and brief descriptions.
@@ -49,3 +50,22 @@ To get this project running on your local machine, follow these steps:
   ```bash
   npm run dev
   ```
+
+## API Endpoint
+
+This project interacts with a backend API to fetch job opportunities. Below are the details of the API endpoints used:
+
+- **Base URL**: [https://akil-backend.onrender.com/](https://akil-backend.onrender.com/)
+- **Documentation**: [API Documentation](https://documenter.getpostman.com/view/27955515/2sA3rwMEUX)
+
+### Endpoints
+
+- **Get All Opportunities**
+  - **Endpoint**: `/opportunities/search`
+  - **Method**: GET
+
+- **Get Opportunity by ID**
+  - **Endpoint**: `/opportunities/:id`
+  - **Method**: GET
+  - **Example**: `/opportunities/6526382983jsdu8d7`
+
