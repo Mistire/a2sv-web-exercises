@@ -33,7 +33,7 @@ const categoryColors: { [key: string]: string } = {
 const RightComponent: React.FC<RightComponentProps> = ({ about }) => {
   return (
     <div className='flex flex-col justify-center px-24 bg-gray-50 -mt-60 ml-24'>
-      <h1 className="text-2xl font-[1000] mb-4">About</h1>
+      <h1 className="text-2xl font-extrabold mb-4">About</h1>
       <div className="flex items-center mb-2">
         <CalendarDaysIcon className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
         <div>
@@ -70,8 +70,8 @@ const RightComponent: React.FC<RightComponentProps> = ({ about }) => {
         </div>
       </div>
       
-      <h1 className='text-xl font-bold mb-4'>Categories</h1>
-      <div className="flex flex-wrap gap-2 mb-6">
+      <h1 className='text-xl font-extrabold mb-4'>Categories</h1>
+      <div className="flex flex-wrap gap-2 mb-6 ">
         {about.categories.map((category, index) => (
           <span 
             key={index} 
@@ -82,7 +82,7 @@ const RightComponent: React.FC<RightComponentProps> = ({ about }) => {
         ))}
       </div>
       
-      <h1 className='text-xl font-bold mb-4'>Required Skills</h1>
+      <h1 className='text-xl font-extrabold mb-4'>Required Skills</h1>
       <div className="flex flex-wrap gap-2">
         {about.required_skills.map((skill, index) => (
           <span 
