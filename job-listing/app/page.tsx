@@ -71,6 +71,7 @@ const HomePage: React.FC = () => {
               <JobCard job={job}/>
             </Link>
           ))}
+          
         </div>
       </div>
     </div>

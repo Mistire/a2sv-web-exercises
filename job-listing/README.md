@@ -6,6 +6,14 @@
   **Job description**
 ![image](https://github.com/user-attachments/assets/04e16225-a87a-40e8-86cc-9e52ce233064)
 
+  **Sign Up**
+  
+
+  **Email Verification with OTP**
+  
+
+  **Login** 
+
 
 ## Overview
 
@@ -19,6 +27,15 @@ Welcome to the Job Listing Web App! This application is designed to help users f
 - **Interactive Sorting**: View job listings with a sorting indicator at the top right, allowing you to understand the sorting criteria used.
 - **Responsive Design**: Enjoy a seamless experience whether you are on a desktop, tablet, or mobile device.
 
+- **User Authentication**: Sign up, log in, and log out securely with options for email/password authentication, Google OAuth, and OTP verification.
+
+
+## User Authentication Features
+
+- **Email/Password Sign Up and Log In**: Users can create an account using their email and password. They can log in to access additional features and personalized job listings.
+- **Google OAuth**: Users can sign up and log in using their Google accounts for a quicker and more secure authentication process.
+- **OTP Verification**: After signing up, users receive a One-Time Password (OTP) sent to their email for verification. They need to enter the OTP to complete the registration process.
+
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
@@ -26,6 +43,8 @@ Welcome to the Job Listing Web App! This application is designed to help users f
 - **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
 - **Tailwind CSS**: A utility-first CSS framework for building custom designs.
 - **Heroicons**: A set of free, MIT-licensed high-quality SVG icons for you to use in your web projects.
+- **Google Authentication**: For implementing secure user authentication with email/password and Google OAuth.
+- **Backend API**: For handling user registration, login, and OTP verification.
 
 ## How to Set Up Locally
 
