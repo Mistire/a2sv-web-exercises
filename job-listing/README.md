@@ -7,12 +7,13 @@
 ![image](https://github.com/user-attachments/assets/04e16225-a87a-40e8-86cc-9e52ce233064)
 
   **Sign Up**
-  
+  ![image](https://github.com/user-attachments/assets/c6575df1-917f-46ed-9fa0-9e1cfb3b7e90)
 
   **Email Verification with OTP**
-  
+  ![image](https://github.com/user-attachments/assets/19ca3c17-9343-4a40-879c-522458a50fca)
 
   **Login** 
+  ![image](https://github.com/user-attachments/assets/7e7b4b47-35e1-4799-9311-db9c9ab297eb)
 
 
 ## Overview
