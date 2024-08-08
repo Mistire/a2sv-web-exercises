@@ -46,7 +46,7 @@ const SignIn = () => {
 
       if (authResult?.ok) {
         const returnUrl = searchParams.get('returnUrl') || '/';
-        router.push(returnUrl);
+        router.push('/');
       } else {
         console.error('Sign in with next-auth failed', authResult?.error);
       }
