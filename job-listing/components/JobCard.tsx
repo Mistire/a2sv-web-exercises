@@ -75,8 +75,8 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
             <Image
               src={logoUrl}
               alt={`${orgName} logo`}
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               className="rounded-full"
             />
           </div>
@@ -101,7 +101,7 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
         </div>
       </Link>
       <div className="absolute top-2 right-1 md:top-4 md:-right-3" onClick={toggleBookmark}>
-        {bookmarked ? <IoBookmark size={26} /> : <IoBookmarkOutline size={26} />}
+        {bookmarked ? <IoBookmark size={35} className="text-indigo-500"/> : <IoBookmarkOutline size={35} />}
       </div>
     </div>
   );
