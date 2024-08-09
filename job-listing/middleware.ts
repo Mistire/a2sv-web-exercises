@@ -9,7 +9,7 @@ export async function middleware(request: NextRequest) {
 
   if (!token) {
     
-    return NextResponse.redirect(new URL('/auth/signup', request.url));
+    return NextResponse.redirect(new URL('/auth/login', request.url));
   }
 
   

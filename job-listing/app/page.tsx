@@ -5,6 +5,8 @@ import { JobsData, Job } from "@/types/job";
 import React, { useEffect, useState } from "react";
 // import jobsData from "../data/jobs.json";
 import Link from "next/link";
+import { useSession } from "next-auth/react";
+
 
 interface HomePageProps {
   jobs: Job[];
@@ -12,7 +14,10 @@ interface HomePageProps {
 
 const HomePage: React.FC = () => {
   // const { job_postings } = jobsData as JobsData;
-
+  const { data: session } = useSession()
+  if (session) {
+    console.log("Token", session.user.accessToken)
+  }
   const [jobs, setJobs] = useState<Job[]>([])
   const [loading, setLoading] = useState<boolean>(true)
   const [error, setError] = useState<string | null>(null)
@@ -67,9 +72,7 @@ const HomePage: React.FC = () => {
         {/* Job Cards */}
         <div className="pt-10 mx-48"> {/* Added padding-top here */}
           {jobs.map((job, index) => (
-            <Link href={`/jobs/${job.id}`} key={job.id}>
-              <JobCard job={job}/>
-            </Link>
+            <JobCard job={job} key={index}/>
           ))}
           
         </div>

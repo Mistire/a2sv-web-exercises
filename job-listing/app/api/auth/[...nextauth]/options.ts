@@ -4,6 +4,7 @@ import GoogleProvider from "next-auth/providers/google";
 import { NextAuthOptions } from "next-auth";
 
 interface User {
+  accessToken: any;
   id: string;
   email: string;
   name: string;
@@ -44,24 +45,37 @@ export const authOptions: NextAuthOptions = {
           });
           const user: User | null = await res.json();
 
+
           if (res.ok && user) {
-            return user;
+            
+            // return {
+            //   id: user.id,
+            //   email: user.email,
+            //   accessToken: user.accessToken
+            // };
+            return user
           } else {
             return null;
           }
         } catch (error) {
+          
           console.error("Error during authentication", error);
           return null;
         }
       },
     }),
   ],
+  session:{
+    strategy:'jwt'
+  },
   callbacks: {
     async jwt({ token, user }) {
-      if (user) {
-        token.id = user.id;
-        token.email = user.email;
+      if(user){
+        token.id = user.data.id;
+        token.email = user.data.email;
+        token.accessToken = user.data.accessToken;
       }
+
       return token;
     },
     async session({ session, token }) {
@@ -71,10 +85,13 @@ export const authOptions: NextAuthOptions = {
           id: token.id as string,
           email: token.email as string,
         };
+        session.user.accessToken = token.accessToken as string
+        console.log("Token from session creation: ", session.user.accessToken)
       }
       return session;
     },
   },
+
   pages: {
     signIn: "/auth/login",
     signOut: "/auth/signout",
