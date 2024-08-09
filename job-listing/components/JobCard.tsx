@@ -14,8 +14,7 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
   const [bookmarked, setBookmarked] = useState(false);
   const { data: session } = useSession();
 
-  const halfDescription =
-    description.length > 250 ? description.slice(0, 250) + "..." : description;
+  const halfDescription = description.length > 250 ? description.slice(0, 250) + "..." : description;
 
   useEffect(() => {
     const fetchBookmarks = async () => {
@@ -69,15 +68,15 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative mx-20 my-10 ml-24">
       <Link href={`/jobs/${job.id}`}>
         <div className="job-card flex my-5 md:-mx-8 space-x-6 py-6 sm:px-3 border rounded-2xl shadow-sm">
           <div className="logo mb-4">
             <Image
               src={logoUrl}
               alt={`${orgName} logo`}
-              width={150}
-              height={150}
+              width={100}
+              height={100}
               className="rounded-full"
             />
           </div>
