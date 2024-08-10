@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Job } from "@/types/job";
+import { Job } from "../types/job";
 import Image from "next/image";
 import Link from "next/link";
 import { IoBookmark, IoBookmarkOutline } from "react-icons/io5";
@@ -98,10 +98,12 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
         </div>
       </Link>
       <div
+        role="button"
+        aria-label={bookmarked ? "Remove Bookmark" : "Add Bookmark"}
         className="absolute top-4 right-7 md:top-4 md:right-6 lg:top-5 lg:right-8 cursor-pointer"
         onClick={toggleBookmark}
       >
-        {bookmarked ? <IoBookmark size={30} className="text-indigo-500" /> : <IoBookmarkOutline size={30} />}
+        {bookmarked ? <IoBookmark size={30} className="fill-indigo-500" /> : <IoBookmarkOutline size={30} />}
       </div>
     </div>
   );

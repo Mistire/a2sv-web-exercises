@@ -18,6 +18,16 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: [
+      // You can specify themes here or create a custom theme
+      'light',  // Default theme
+      // 'dark',  // Uncomment if you want dark theme
+      // Add your custom theme
+    ],
+  },
 };
 export default config;

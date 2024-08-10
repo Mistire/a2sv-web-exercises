@@ -6,7 +6,6 @@ import { Job } from "@/types/job"
 import JobCard from "@/components/JobCard"
 
 const BookmarkedJob: React.FC = () => {
-
   const [bookmarkedJobs, setBookmarkedJobs] = useState<Job[]>([])
   const { data: session } = useSession();
   const [loading, setLoading] = useState(true);
@@ -43,7 +42,11 @@ const BookmarkedJob: React.FC = () => {
   }, [session?.user.accessToken])
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <span className="loading loading-bars loading-lg custom-loading"></span>
+      </div>
+    )
   }
 
   if (bookmarkedJobs.length === 0) {

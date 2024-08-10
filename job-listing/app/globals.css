@@ -31,5 +31,11 @@ body {
     )
     rgb(var(--background-start-rgb)); */
     font-family: 'Poppins', sans-serif;
+    
 } 
+
+.custom-loading {
+  width: 4rem;  /* Increased width */
+  height: 4rem; /* Increased height */
+}
 

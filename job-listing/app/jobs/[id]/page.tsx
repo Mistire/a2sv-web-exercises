@@ -44,11 +44,15 @@ const DetailsPage = ({ params: { id } }: DetailedPageProps) => {
   }, [id]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <span className="loading loading-bars loading-lg custom-loading"></span>
+      </div>
+    );
   }
 
   if (error) {
-    return <p>Error: {error}</p>;
+    return <p className="text-red-500">Error: {error}</p>;
   }
 
   if (!job) {

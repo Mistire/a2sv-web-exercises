@@ -47,7 +47,11 @@ const HomePage: React.FC = () => {
   }, [])
 
   if (loading) {
-    return <p>Loading...</p>
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <span className="loading loading-bars loading-lg custom-loading"></span>
+      </div>
+    )
   }
 
   if (error) {
