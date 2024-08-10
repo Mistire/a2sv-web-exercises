@@ -45,7 +45,7 @@ const SignIn = () => {
       });
 
       if (authResult?.ok) {
-        const returnUrl = searchParams.get('returnUrl') || '/';
+        const returnUrl = searchParams.get('callbackUrl') || '/';
         router.push('/');
       } else {
         console.error('Sign in with next-auth failed', authResult?.error);
@@ -62,7 +62,7 @@ const SignIn = () => {
 
         <button
           className="flex items-center justify-center w-full py-3 mb-6 border border-gray-300 rounded-lg hover:bg-gray-100"
-          onClick={() => signIn('google')}
+          onClick={() => signIn('google', {callbackUrl: '/'})}
         >
           <FcGoogle className="mr-3" size={28} />
           Sign In with Google

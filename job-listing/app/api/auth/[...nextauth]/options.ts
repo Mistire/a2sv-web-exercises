@@ -47,12 +47,7 @@ export const authOptions: NextAuthOptions = {
 
 
           if (res.ok && user) {
-            
-            // return {
-            //   id: user.id,
-            //   email: user.email,
-            //   accessToken: user.accessToken
-            // };
+
             return user
           } else {
             return null;
@@ -86,7 +81,6 @@ export const authOptions: NextAuthOptions = {
           email: token.email as string,
         };
         session.user.accessToken = token.accessToken as string
-        console.log("Token from session creation: ", session.user.accessToken)
       }
       return session;
     },

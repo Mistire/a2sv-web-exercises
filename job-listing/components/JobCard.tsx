@@ -68,40 +68,40 @@ const JobCard: React.FC<JobCardProps> = ({ job }) => {
   };
 
   return (
-    <div className="relative mx-20 my-10 ml-24">
-      <Link href={`/jobs/${job.id}`}>
-        <div className="job-card flex my-5 md:-mx-8 space-x-6 py-6 sm:px-3 border rounded-2xl shadow-sm">
-          <div className="logo mb-4">
+    <div className="relative mx-auto my-6 px-4 max-w-full sm:max-w-3xl md:max-w-4xl">
+      <Link href={`/jobs/${id}`}>
+        <div className="job-card flex flex-col md:flex-row items-start md:items-center py-6 px-4 border rounded-2xl shadow-sm space-y-4 md:space-y-0 md:space-x-6">
+          <div className="logo mb-4 md:mb-0 w-full max-w-[120px] hidden md:block">
             <Image
               src={logoUrl}
               alt={`${orgName} logo`}
-              width={150}
-              height={150}
-              className="rounded-full"
+              width={100}
+              height={100}
+              className="object-cover rounded-full"
             />
           </div>
-
-          <div>
-            <h2 className="text-xl font-bold mb-2">{title}</h2>
-            <div className="flex space-x-6 px-6 items-center">
+          <div className="flex-1">
+            <h2 className="text-lg sm:text-xl font-bold mb-2">{title}</h2>
+            <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-6">
               <span className="text-gray-400 text-sm">{orgName}</span>
-              <span className="text-gray-400 text-sm text-center items-center">.</span>
+              <span className="text-gray-400 text-sm">.</span>
               <span className="text-gray-400 text-sm">{location[0]}</span>
             </div>
 
-            <p className="text-gray-700 mb-2">{halfDescription}</p>
+            <p className="text-gray-700 text-sm sm:text-base mt-2">{halfDescription}</p>
             <div className="tags mt-2">
-              <span
-                className={`tag rounded-full px-3 py-1 text-sm mr-2 mb-2 text-green-500 bg-green-100 border`}
-              >
+              <span className="tag rounded-full px-3 py-1 text-xs sm:text-sm mr-2 mb-2 text-green-500 bg-green-100 border">
                 {opType}
               </span>
             </div>
           </div>
         </div>
       </Link>
-      <div className="absolute top-2 right-1 md:top-4 md:-right-3" onClick={toggleBookmark}>
-        {bookmarked ? <IoBookmark size={35} className="text-indigo-500"/> : <IoBookmarkOutline size={35} />}
+      <div
+        className="absolute top-4 right-7 md:top-4 md:right-6 lg:top-5 lg:right-8 cursor-pointer"
+        onClick={toggleBookmark}
+      >
+        {bookmarked ? <IoBookmark size={30} className="text-indigo-500" /> : <IoBookmarkOutline size={30} />}
       </div>
     </div>
   );

@@ -53,7 +53,7 @@ const BookmarkedJob: React.FC = () => {
   return (
     <div className="p-20">
       <h1 className="text-2xl font-bold mb-4">Bookmarked Jobs</h1>
-      <div className="pt-10 mx-48">
+      <div className="pt-10">
         {bookmarkedJobs.map((job) => (
           <JobCard key={job.id} job={job} />
         ))}

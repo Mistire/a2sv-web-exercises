@@ -70,7 +70,7 @@ const HomePage: React.FC = () => {
         </div>
 
         {/* Job Cards */}
-        <div className="pt-10 mx-48"> {/* Added padding-top here */}
+        <div className="pt-10"> {/* Added padding-top here */}
           {jobs.map((job, index) => (
             <JobCard job={job} key={index}/>
           ))}

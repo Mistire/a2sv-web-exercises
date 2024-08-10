@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { SessionProvider } from 'next-auth/react'
+import Navbar from '@/components/Navbar'
 
 interface Props {
   children: React.ReactNode
@@ -8,7 +9,10 @@ interface Props {
 
 const AuthProvider = ({children} :Props) => {
   return (
-    <SessionProvider>{children}</SessionProvider>
+    <SessionProvider>
+      <Navbar/>
+      {children}
+      </SessionProvider>
   )
 }
 
