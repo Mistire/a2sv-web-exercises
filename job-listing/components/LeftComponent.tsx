@@ -1,6 +1,7 @@
 import React from 'react';
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
 import { MapPinIcon } from '@heroicons/react/24/outline';
+import { FiCheckCircle } from 'react-icons/fi';
 
 interface LeftComponentProps {
   description: string;
@@ -25,7 +26,7 @@ const LeftComponent: React.FC<LeftComponentProps> = ({ description, responsibili
         <ul className='mb-6'>
           {responsibilities.map((responsibility, index) => (
             <li className='text-gray-700 flex items-center mb-2' key={index}>
-              <CheckCircleIcon className='h-6 w-6 text-green-500 mr-2' />
+              <FiCheckCircle className='h-5 w-5 text-green-500 mr-2' />
               {responsibility}
             </li>
           ))}
