@@ -1,2 +1,4 @@
-// This import statement adds custom Jest matchers from the React Testing Library.
 import '@testing-library/jest-dom';
+import fetchMock from 'jest-fetch-mock';
+
+fetchMock.enableMocks();

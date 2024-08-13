@@ -1,7 +1,7 @@
 "use client"
 
-import JobCard from "@/components/JobCard";
-import { JobsData, Job } from "@/types/job";
+import JobCard from "../components/JobCard";
+import { JobsData, Job } from "../types/job";
 import React, { useEffect, useState } from "react";
 // import jobsData from "../data/jobs.json";
 import Link from "next/link";

@@ -10,6 +10,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "baseUrl": "./",
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
@@ -18,8 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@testing-library/*": ["node_modules/@testing-library/*"]
+    },
+    "types": ["@testing-library/jest-dom", "jest"]  // Add this line
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { useSession } from "next-auth/react"
-import { Job } from "@/types/job"
-import JobCard from "@/components/JobCard"
+import { Job } from "types/job"
+import JobCard from "components/JobCard"
 
 const BookmarkedJob: React.FC = () => {
   const [bookmarkedJobs, setBookmarkedJobs] = useState<Job[]>([])
@@ -50,7 +50,10 @@ const BookmarkedJob: React.FC = () => {
   }
 
   if (bookmarkedJobs.length === 0) {
-    return <div>No bookmarked jobs found.</div>;
+    return <div className="flex justify-center items-center">
+      <h1 className="text-3xl font-extrabold text-gray-900 pt-20">No Bookmarked job
+      </h1>
+    </div>;
   }
 
   return (

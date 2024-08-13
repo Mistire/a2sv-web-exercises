@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { SessionProvider } from 'next-auth/react'
-import Navbar from '@/components/Navbar'
+import Navbar from '../components/Navbar'
 
 interface Props {
   children: React.ReactNode

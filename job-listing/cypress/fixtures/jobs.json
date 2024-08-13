@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "title": "Software Engineer",
+    "description": "A great job for a great engineer.",
+    "orgName": "Tech Company",
+    "opType": "Full-time",
+    "logoUrl": "/logo.png",
+    "location": ["Remote"]
+  }
+]

@@ -41,7 +41,7 @@ const LeftComponent: React.FC<LeftComponentProps> = ({ description, responsibili
       <div className='pg'>
         <h1 className='text-xl font-black mt-10'>When and Where</h1>
         <div className='flex items-center pb-12'>
-          <MapPinIcon className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
+          <MapPinIcon data-testid="map-pin-icon" className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
           <p className='text-gray-700'>{whenWhere}</p>
         </div>
       </div>

@@ -43,35 +43,35 @@ const RightComponent: React.FC<RightComponentProps> = ({
     <div className='flex flex-col justify-center px-24 bg-gray-50 -mt-30 ml-24'>
       <h1 className="text-2xl font-extrabold mb-4">About</h1>
       <div className="flex items-center mb-2">
-        <CalendarDaysIcon className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
+        <CalendarDaysIcon data-testid="calendar-days-icon" className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
         <div>
           <p className="text-gray-700 font-bold">Posted On:</p>
           <p className="text-gray-700">{formatDate(datePosted)}</p>
         </div>
       </div>
       <div className="flex items-center mb-2">
-        <FireIcon className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
+        <FireIcon data-testid="fire-icon" className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
         <div>
           <p className="text-gray-700 font-bold">Deadline:</p>
           <p className="text-gray-700">{formatDate(deadline)}</p>
         </div>
       </div>
       <div className="flex items-center mb-2">
-        <MapPinIcon className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
+        <MapPinIcon data-testid="map-pin-icon" className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
         <div>
           <p className="text-gray-700 font-bold">Location:</p>
           <p className="text-gray-700">{location.join(', ')}</p>
         </div>
       </div>
       <div className="flex items-center mb-2">
-        <CalendarIcon className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
+        <CalendarIcon data-testid="calendar-icon" className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
         <div>
           <p className="text-gray-700 font-bold">Start Date:</p>
           <p className="text-gray-700">{formatDate(startDate)}</p>
         </div>
       </div>
       <div className="flex items-center mb-6">
-        <ClockIcon className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
+        <ClockIcon data-testid="clock-icon" className="rounded-full border-gray-100 h-12 w-12 text-sky-400 border-4 p-1 mr-2" />
         <div>
           <p className="text-gray-700 font-bold">End Date:</p>
           <p className="text-gray-700">{formatDate(endDate)}</p>

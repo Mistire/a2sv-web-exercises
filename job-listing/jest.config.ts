@@ -1,22 +1,21 @@
-// Import the Config type from Jest's types to provide type-checking for the config object.
-import type { Config } from '@jest/types';
-
-// Define your Jest configuration with a typed object.
-const config: Config.InitialOptions = {
-  preset: "ts-jest", // Use ts-jest preset, which includes TypeScript support and jsdom environment.
-  testEnvironment: "jsdom", // Specify the testing environment to simulate a browser (DOM).
-  transform: {
-    // Transform files matching the .ts or .tsx extension using ts-jest.
-    // This allows TypeScript files to be compiled for tests.
-    '^.+\\.tsx?$': [
-      'ts-jest',
-      {
-        tsconfig: "tsconfig.jest.json", // Specify the TypeScript config specifically for Jest.
-      },
-    ],
+import type { Config } from 'jest'
+import nextJest from 'next/jest.js'
+ 
+const createJestConfig = nextJest({
+  // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
+  dir: './',
+})
+ 
+// Add any custom config to be passed to Jest
+const config: Config = {
+  coverageProvider: 'v8',
+  testEnvironment: 'jsdom',
+  // Add more setup options before each test is run
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  moduleNameMapper: {
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
-  setupFilesAfterEnv: ["./jest.setup.ts"], // List of scripts to run after the test framework is installed in the environment.
 }
-
-// Export the configuration to be used by Jest.
-export default config;
+ 
+// createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
+export default createJestConfig(config)

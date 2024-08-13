@@ -39,3 +39,14 @@ export interface JobsData {
   errors: any | null;
   count: number;
 }
+
+export interface PartialJob {
+  id: string;
+  title: string;
+  description?: string;
+  orgName: string;
+  opType: string;
+  logoUrl?: string;
+  location: string[];
+}
+
