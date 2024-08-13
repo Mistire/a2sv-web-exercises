@@ -46,7 +46,29 @@ Welcome to the Job Listing Web App! This application is designed to help users f
 - **Heroicons**: A set of free, MIT-licensed high-quality SVG icons for you to use in your web projects.
 - **Google Authentication**: For implementing secure user authentication with email/password and Google OAuth.
 - **Backend API**: For handling user registration, login, and OTP verification.
+- **Jest**: A delightful JavaScript testing framework with a focus on simplicity.
+- **Cypress**: A next-generation front-end testing tool built for the modern web.
 
+## Testing
+
+### Jest
+- Jest is used for unit and integration testing in the project. It helps ensure that individual components and functions work as expected in isolation and when combined.
+
+  - **Run Jest Tests**: To run the Jest tests, use the following command
+      ```bash
+      npm run test
+      ```
+
+
+### Cypress
+- Cypress is employed for end-to-end (E2E) testing, which simulates user interactions with the app to verify that all parts of the application work together as expected.
+
+  - **Run Cypress Tests**: To open Cypress and run the tests, use:
+      ```bash
+      npm run cypress:open
+      ```
+
+      
 ## How to Set Up Locally
 
 To get this project running on your local machine, follow these steps:
