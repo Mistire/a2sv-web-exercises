@@ -15,6 +15,22 @@
   **Login** 
   ![image](https://github.com/user-attachments/assets/7e7b4b47-35e1-4799-9311-db9c9ab297eb)
 
+  **Mobile Responsive**
+  ![image](https://github.com/user-attachments/assets/5b7b12d5-1015-48a4-94cf-fdb38b07d5e0)
+  ![image](https://github.com/user-attachments/assets/7d29af1e-6483-4c63-b92f-b9601c90e0b1)
+
+  **Testing with Jest**
+  ![image](https://github.com/user-attachments/assets/edf0670f-4fd3-4ca2-a499-6786e32650a5)
+
+  **Testing with Cypress**
+  ![image](https://github.com/user-attachments/assets/402cf97d-c1a7-4893-9490-3f91a5ad05b0)
+  ![image](https://github.com/user-attachments/assets/7f58415b-8c9f-447b-a3bf-3037325d951a)
+
+
+  
+
+
+
 
 ## Overview
 
