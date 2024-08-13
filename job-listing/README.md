@@ -1,19 +1,26 @@
 # Job Listing Web App
 
-  **Job listings**
-![image](https://github.com/user-attachments/assets/0c55f2a2-0c2d-4e4b-b34d-0bc490e329ae)
+  **Job listings page**
+![image](https://github.com/user-attachments/assets/8695ce75-7041-42c2-9c59-2a30813d31b4)
 
-  **Job description**
+  **Job description page**
 ![image](https://github.com/user-attachments/assets/04e16225-a87a-40e8-86cc-9e52ce233064)
 
-  **Sign Up**
-  ![image](https://github.com/user-attachments/assets/c6575df1-917f-46ed-9fa0-9e1cfb3b7e90)
+  **Bookmarked Job page**
+![image](https://github.com/user-attachments/assets/95ac538c-1c1b-42e7-bfc6-fe442b4cb45a)
 
-  **Email Verification with OTP**
+  **Sign Up**
+ ![image](https://github.com/user-attachments/assets/a3102aa3-0a72-4dfb-b6a5-737eaa2746e8)
+ ![image](https://github.com/user-attachments/assets/b8eb9670-4e80-4eac-b5ca-9f4c44937c5a)
+
+  **Email Verification with OTP page**
   ![image](https://github.com/user-attachments/assets/19ca3c17-9343-4a40-879c-522458a50fca)
 
-  **Login** 
-  ![image](https://github.com/user-attachments/assets/7e7b4b47-35e1-4799-9311-db9c9ab297eb)
+  **Login page** 
+  ![image](https://github.com/user-attachments/assets/3ad732d3-b3c0-421a-bf7a-198edb229490)
+
+  **Loading UI**
+  ![image](https://github.com/user-attachments/assets/4ee6a291-d2da-4bd6-be6b-4735eb99393d)
 
   **Mobile Responsive**
   ![image](https://github.com/user-attachments/assets/5b7b12d5-1015-48a4-94cf-fdb38b07d5e0)
