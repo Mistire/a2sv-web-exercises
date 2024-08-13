@@ -2,41 +2,43 @@
 <div style="margin: auto>
  
   **Job listings page**
+  <br/>
 ![image](https://github.com/user-attachments/assets/8695ce75-7041-42c2-9c59-2a30813d31b4)
-
+ <br/>
   **Job description page**
 ![image](https://github.com/user-attachments/assets/04e16225-a87a-40e8-86cc-9e52ce233064)
-
+<br/>
   **Bookmarked Job page**
 ![image](https://github.com/user-attachments/assets/95ac538c-1c1b-42e7-bfc6-fe442b4cb45a)
-
+<br/>
   **Sign Up**
  ![image](https://github.com/user-attachments/assets/a3102aa3-0a72-4dfb-b6a5-737eaa2746e8)
  ![image](https://github.com/user-attachments/assets/b8eb9670-4e80-4eac-b5ca-9f4c44937c5a)
-
+<br/>
   **Email Verification with OTP page**
   ![image](https://github.com/user-attachments/assets/19ca3c17-9343-4a40-879c-522458a50fca)
-
+<br/>
   **Login page** 
   ![image](https://github.com/user-attachments/assets/3ad732d3-b3c0-421a-bf7a-198edb229490)
-
+<br/>
   **Loading UI**
   ![image](https://github.com/user-attachments/assets/4ee6a291-d2da-4bd6-be6b-4735eb99393d)
-
+<br/>
   **Mobile Responsive**
+<br/>  
    ![image](https://github.com/user-attachments/assets/5b7b12d5-1015-48a4-94cf-fdb38b07d5e0)
    ![image](https://github.com/user-attachments/assets/7d29af1e-6483-4c63-b92f-b9601c90e0b1)
-  
+<br/>  
   **Testing with Jest**
+  
   ![image](https://github.com/user-attachments/assets/edf0670f-4fd3-4ca2-a499-6786e32650a5)
-
+<br/>
   **Testing with Cypress**
+  
   ![image](https://github.com/user-attachments/assets/402cf97d-c1a7-4893-9490-3f91a5ad05b0)
   ![image](https://github.com/user-attachments/assets/7f58415b-8c9f-447b-a3bf-3037325d951a)
-
+<br/>
 </div>
-
-  
 
 
 
