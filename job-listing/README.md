@@ -1,5 +1,6 @@
 # Job Listing Web App
-
+<div style="margin: auto>
+ 
   **Job listings page**
 ![image](https://github.com/user-attachments/assets/8695ce75-7041-42c2-9c59-2a30813d31b4)
 
@@ -23,8 +24,11 @@
   ![image](https://github.com/user-attachments/assets/4ee6a291-d2da-4bd6-be6b-4735eb99393d)
 
   **Mobile Responsive**
-  ![image](https://github.com/user-attachments/assets/5b7b12d5-1015-48a4-94cf-fdb38b07d5e0)
-  ![image](https://github.com/user-attachments/assets/7d29af1e-6483-4c63-b92f-b9601c90e0b1)
+  <div  style="width:40%; margin: auto;>
+   ![image](https://github.com/user-attachments/assets/5b7b12d5-1015-48a4-94cf-fdb38b07d5e0)
+   ![image](https://github.com/user-attachments/assets/7d29af1e-6483-4c63-b92f-b9601c90e0b1)
+  </div>
+  
 
   **Testing with Jest**
   ![image](https://github.com/user-attachments/assets/edf0670f-4fd3-4ca2-a499-6786e32650a5)
@@ -33,6 +37,7 @@
   ![image](https://github.com/user-attachments/assets/402cf97d-c1a7-4893-9490-3f91a5ad05b0)
   ![image](https://github.com/user-attachments/assets/7f58415b-8c9f-447b-a3bf-3037325d951a)
 
+</div>
 
   
 
