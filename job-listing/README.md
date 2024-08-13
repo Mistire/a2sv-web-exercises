@@ -30,6 +30,7 @@ Welcome to the Job Listing Web App! This application is designed to help users f
 
 - **User Authentication**: Sign up, log in, and log out securely with options for email/password authentication, Google OAuth, and OTP verification.
 
+**Testing with Jest and Cypress**: Comprehensive testing using Jest and Cypress to ensure the app's reliability and performance across different scenarios.
 
 ## User Authentication Features
 
@@ -68,7 +69,7 @@ Welcome to the Job Listing Web App! This application is designed to help users f
       npm run cypress:open
       ```
 
-      
+
 ## How to Set Up Locally
 
 To get this project running on your local machine, follow these steps:
